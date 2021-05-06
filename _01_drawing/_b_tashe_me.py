@@ -50,7 +50,8 @@ if __name__ == '__main__':
 
     # 3. Create a variable called moustache and set it equal to add_moustache('moustache1.gif')
     # moustache = add_moustache('moustache1.gif')
-    moustache = add_moustache('emoji2.gif')
+    moustache = add_moustache('moustache1.gif')
+    moustache.goto(100, 150)
     # ===================== DO NOT EDIT THE CODE BELOW ============================
     window.onclick(screen_clicked)
     turtle.done()
